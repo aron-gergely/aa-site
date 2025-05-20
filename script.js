@@ -7,12 +7,12 @@ btn.addEventListener("click", () => {
     { scale: 1 },
     {
       scale: 0.95,
-      duration: 0.08,
+      duration: 0.1,
       ease: "power2.in",
       onComplete: () => {
         gsap.to(btn, {
           scale: 1,
-          duration: 0.08,
+          duration: 0.1,
           ease: "power2.out"
         });
       }
